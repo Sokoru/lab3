@@ -23,11 +23,11 @@ choice:
 
 code:
 {
-    int episode_number;
+    int ep;
     printf("Введіть номер серії: ");
-    scanf("%d", &episode_number);
+    scanf("%d", &ep);
 
-    switch (episode_number)
+    switch (ep)
     {
     case 1:
         printf("Довга ясна темрява, дата виходу 12 січня 2014 року\n");
