@@ -69,12 +69,9 @@ code_2:
     scanf("%f", &x);
     printf("Задайте число z: ");
     scanf("%f", &z);
-    if (x < 3)
-        y = 3 * x + z;
-    if (x <= 3 && x <= 10)
-        y = (2 * x * z) / (7 - z);
-    if (x > 10)
-        y = x;
+    if (x < 3) y = 3 * x + z;
+    if (3 <= x && x <= 10) y = (2 * x * z) / (7 - z);
+    if (x > 10) y = x;
     printf("Визначення: %.2f \n", y);
     goto choice;
 }
