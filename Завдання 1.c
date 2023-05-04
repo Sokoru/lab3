@@ -28,11 +28,11 @@ method:
     scanf(" %s", &input);
     if (input == 'a')
     {
-        goto code_1;
+        goto code_2;
     }
     else if (input == 'b')
     {
-        goto code_2;
+        goto code_1;
     }
     else if (input == 'r')
     {
